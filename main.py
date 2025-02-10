@@ -5,6 +5,7 @@ from systemprotector import SystemProtector
 from webtrafficmonitor import WebTrafficMonitor
 from reporter import Reporter
 from database import Database
+
 class SecurityToolkit:
     def __init__(self):
         self.port_scanner = PortScanner()
